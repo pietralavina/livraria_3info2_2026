@@ -3,7 +3,7 @@ from rest_framework.serializers import ModelSerializer
 from core.models import Livro
 
 
-class LivroListRetrieveSerializer(ModelSerializer):
+class LivroRetrieveSerializer(ModelSerializer):
     class Meta:
         model = Livro
         fields = '__all__'
